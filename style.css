@@ -145,3 +145,23 @@ section h2 {
 .speaker-section {
     margin: 60px;
 }
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.pricing-section{
+width: 1200px;
+margin: 100px auto;
+}
+.pricing-header{
+    text-align: center;
+    margin-bottom: 50px ;
+}
+/* .pricing-header{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:#0b1a30 ;
+    /* margin-bottom: 12px; */
+} */
