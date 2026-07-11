@@ -1,4 +1,4 @@
-*{
+* {
     font-family: inter;
 }
 
@@ -37,7 +37,7 @@ nav {
     border-radius: 9px;
     border: none;
     color: white;
-        cursor: pointer;
+    cursor: pointer;
 
 
 }
@@ -78,14 +78,14 @@ nav {
 }
 
 .hero-content h1 {
-   
+
     font-size: 3rem;
 
     margin-bottom: 10px;
 }
 
 .hero-content p {
-  
+
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ section h2 {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 40px;
-   
+
 
 }
 
@@ -112,56 +112,147 @@ section h2 {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
+
 .speaker-card {
     background-color: white;
-    border: 1px solid #ececec;
+    border: 1px solid #E5E7EB;
     border-radius: 10px;
 
 }
 
-.speaker-image{
+.speaker-image {
     height: auto;
     width: 100%;
     border-radius: 10px;
 
 }
+
 .speaper-info {
     padding: 24px;
 }
+
 .speaker-tag {
-  color: #2563EB; 
-  font-size: .8rem;
-  font-weight:600;
-  margin-bottom: 8px;
+    color: #2563EB;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 8px;
 }
-.speaker-name{
+
+.speaker-name {
     font-size: 1.6rem;
     color: #0D1B2A;
 }
+
 .speaker-role {
     color: #575757;
     font-size: 0.9rem;
 }
+
 .speaker-section {
     margin: 60px;
 }
-.pricing-grid{
+
+.pricing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
+
 }
-.pricing-section{
-width: 1200px;
-margin: 100px auto;
+
+.pricing-section {
+    width: 1200px;
+    margin: 100px auto;
 }
-.pricing-header{
+
+.pricing-header {
     text-align: center;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
 }
-/* .pricing-header{
+
+.pricing-head {
     font-size: 2.5rem;
     font-weight: 800;
-    color:#0b1a30 ;
-    /* margin-bottom: 12px; */
-} */
+    color: #0D1B2A;
+    margin-bottom: 12px;
+}
+
+.pricing-subtitle {
+    font-size: 0.8rem;
+    color: #575757;
+}
+
+.pricing-card {
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card.card-featured {
+    background-color: #0D1B2A;
+    color: white;
+    border: none;
+
+}
+
+.card-holder {
+    margin-bottom: 15px;
+}
+
+.plan-type {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #888888
+}
+
+.plan-featured-type {
+    color: #93C5FD;
+
+}
+
+.plan-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.plan-person {
+    color: #888888;
+}
+
+ul li::marker {
+    color: #60A5FA;
+}
+
+.plan-features li {
+    font-size: .9rem;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.common-pricing-btn{
+ 
+    color: #2563EB;
+    background-color: white;
+    border-color: #2563EB;
+    
+}
+.common-pricing-btn-epic{
+    /* padding: 14px;
+    border-radius: 8px; */
+    background-color: #2563EB;
+    color: white;
+    border-style: none;
+
+
+}
+.team-pricing-btn{
+      /* padding: 14px;
+    border-radius: 8px; */
+    background-color: white;
+}
+ .pricing-section button{
+      padding: 14px;
+    border-radius: 8px;
+}
