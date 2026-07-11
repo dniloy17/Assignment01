@@ -170,8 +170,8 @@ section h2 {
     width: 100%;
     border: 0;
     height: 1px;
-    margin: 20px, 0;
-    background-color: #E5E7EB;
+    margin: 20px 0;
+    background-color: rgb(187, 187, 187);
 }
 
 .pricing-section {
@@ -301,9 +301,8 @@ footer {
 }
 
 .footer-hr {
-    background-color: rgb(22, 21, 21);
-
-    margin-bottom: 25px;
+    background-color: rgb(165, 165, 165);
+    margin-bottom: 30px;
 }
 
 .footer-logo,
@@ -311,9 +310,6 @@ footer {
 .below-hr-text {
     cursor: pointer;
 }
-
-
-/* ===== Beyond the Talks ===== */
 
 .career-hub {
     padding: 100px 8%;
