@@ -1,11 +1,11 @@
 * {
-    font-family: inter;
+    font-family: Inter;
     margin: 0;
     padding: 0;
 }
 
 header {
-    padding: 20px;
+    padding: 20px 120px;
 }
 
 nav {
@@ -43,8 +43,16 @@ nav {
     border-radius: 9px;
     border: none;
     color: white;
-    cursor: pointer;
+    cursor: pointer; 
+    font-weight: 700;
 
+
+
+
+}
+.hero-section .common-btn{
+padding: 1.2rem;
+font-size: 1rem;
 
 }
 
