@@ -45,10 +45,6 @@ nav {
     color: white;
     cursor: pointer; 
     font-weight: 700;
-
-
-
-
 }
 .hero-section .common-btn{
 padding: 1.2rem;
@@ -181,7 +177,7 @@ section h2 {
     border: 0;
     height: 1px;
     margin: 20px 0;
-    background-color: rgb(187, 187, 187);
+    background-color: rgba(133, 133, 133, 0.453)
 }
 
 .pricing-section {
@@ -308,11 +304,19 @@ footer {
 .below-hr {
     display: flex;
     justify-content: space-between;
+   
+}
+.footer-privacy{
+margin: 10px;
 }
 
+
 .footer-hr {
-    background-color: rgb(165, 165, 165);
-    margin-bottom: 30px;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    margin: 20px 0;
+    background-color: rgba(133, 133, 133, 0.453)
 }
 
 .footer-logo,
